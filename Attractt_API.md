@@ -29,8 +29,8 @@
         status: 0,
         regdate: "2017-11-09 14:19",
         name: "스키장",
-  	},
-  	{
+      },
+      {
         member_seq: 163,
         track_seq: 999,
         status: 0,
