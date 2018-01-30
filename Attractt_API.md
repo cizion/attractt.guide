@@ -8,8 +8,10 @@
 
   - **secretToken** : 인증 토큰 번호
   - **email** : 어트랙트에 가입한 회원정보의 이메일
+  
 <br>
 <br>
+
 - **Request**
 
   ``````url
@@ -58,8 +60,10 @@
   - **secretToken** : 인증 토큰 번호
   - **email** : 어트랙트에 가입한 회원정보의 이메일
   - **track_seq** : 검색하고자 하는 보드의 번호
+  
 <br>
 <br>
+
 - **Request**
 
   ``````url
