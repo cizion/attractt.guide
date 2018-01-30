@@ -6,7 +6,7 @@
 
   > **(GET)** /custom/track?secretToken=`{token}`=&email=`{email}`
 
-  - **secretToken** : 인증 토큰 번호
+  - **token** : 인증 토큰 번호
   - **email** : 어트랙트에 가입한 회원정보의 이메일
   
 <br>
@@ -56,7 +56,7 @@
 
   > **(GET)** /custom/track?secretToken=`{token}`&email=`{email}`&track_seq=`{seq}`
 
-  - **secretToken** : 인증 토큰 번호
+  - **token** : 인증 토큰 번호
   - **email** : 어트랙트에 가입한 회원정보의 이메일
   - **track_seq** : 검색하고자 하는 보드의 번호
   
