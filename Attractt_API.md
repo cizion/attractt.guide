@@ -9,7 +9,8 @@
   - **secretToken** : 인증 토큰 번호
   - **email** : 어트랙트에 가입한 회원정보의 이메일
 
-  ​
+
+
 
 - **Request**
 
@@ -20,7 +21,7 @@
 
 - **Response**
 
-  ```json
+  ```js
   attracttCallback({
     resultData: [
       {
@@ -72,7 +73,7 @@
 
 - **Response**
 
-  ``````json
+  ``````js
   attracttCallback({
     resultData: [
       {
