@@ -8,11 +8,11 @@
 
   - 예시
 
-    > 상하농원 : http://www.sanghafarm.co.kr/product/detail.jsp?pid=`{product_id}`
+    > 상하농원 : /product/detail.jsp?pid=`{product_id}`
     >
-    > 뉴발란스 : https://nbapi.nbkorea.com/StyleList.svc/ProdDetail/id=`{product_id}`
+    > 뉴발란스 : /StyleList.svc/ProdDetail/id=`{product_id}`
     >
-    > 폴더 : http://api.folderstyle.com/StyleList.svc/`{product_id}`
+    > 폴더 : /StyleList.svc/`{product_id}`
 
 <br>
 
