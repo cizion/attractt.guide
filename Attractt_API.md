@@ -4,7 +4,7 @@
 
 - **이메일 정보를 통해서 해당 계정의 모든 보드의 정보를 가져옵니다.**
 
-  > **(GET)** /custom/track?secretToken=`{token}`=&email=`{email}`
+  > **(GET)** /custom/track?secretToken=`{token}`&email=`{email}`
 
   - **token** : 인증 토큰 번호
   - **email** : 어트랙트에 가입한 회원정보의 이메일
