@@ -124,7 +124,7 @@
       {
         // type: video - 동영상
         standard_image: "https://scontent.cdninstagram.com/.../s640x640/....jpg",
-        text: "안녕하세요. December10 입니다. 페북 기능 중 "작년의 오늘" 소식들을 보니  작년 이 맘때 ...",
+        text: "안녕하세요. December10 입니다. 페북 기능 중 "작년의 오늘" 소식들을 보니  작년 이 ...",
         location: "37.531666666667,127.06666666667",
         profile_image: "https://scontent.cdninstagram.com/.../s150x150/....jpg",
         link: "https://www.instagram.com/p/BbQkrxvAdhi/",
