@@ -19,7 +19,7 @@
 <br>
 
 - **Request**
-  > **(GET)** {전체 상품 목록 API 주소}
+  > **(GET)** {단일 상품 정보 API 주소}
 
 - **Response**
 
