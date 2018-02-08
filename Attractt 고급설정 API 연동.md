@@ -25,20 +25,20 @@
 
   ```js
   callbackFunctionName({
-    id: "상품 고유번호",
-    name: "상품명",
-    image: [
+    "id": "상품 고유번호",
+    "name": "상품명",
+    "image": [
       "상품 이미지1.jpg",
       "상품 이미지2.jpg",
       ...
     ],
-    price: "판매가",
-    discount: "할인가격",
-    unit: "중량/용량",
-    explain: "간략 상품설명",
-    link: "해당상품 페이지 주소",
-    cart: "장바구니 링크",
-    pay: "구매하기 링크"
+    "price": "판매가",
+    "discount": "할인가격",
+    "unit": "중량/용량",
+    "explain": "간략 상품설명",
+    "link": "해당상품 페이지 주소",
+    "cart": "장바구니 링크",
+    "pay": "구매하기 링크"
   })
   ```
 
@@ -62,21 +62,16 @@
 
   ```js
   callbackFunctionName({
-    list: [
+    "list": [
       {
-        id: "상품 고유번호",
-        name: "상품명",
-        api_link: "해당상품 상세정보 API 주소"
+        "id": "상품 고유번호",
+        "name": "상품명",
+        "api_link": "해당상품 상세정보 API 주소"
       },
       {
-        id: "상품 고유번호",
-        name: "상품명",
-        api_link: "해당상품 상세정보 API 주소"
-      },
-      {
-        id: "상품 고유번호",
-        name: "상품명",
-        api_link: "해당상품 상세정보 API 주소"
+        "id": "상품 고유번호",
+        "name": "상품명",
+        "api_link": "해당상품 상세정보 API 주소"
       },
       ...
     ]
