@@ -18,6 +18,11 @@
 
 <br>
 
+- **Request**
+  ```
+  (GET) {단일  API 주소}
+  ```
+
 - **Response**
 
   ```js
@@ -50,6 +55,12 @@
 - **응답값은 `JSON` 형태로 내려주세요.**
 
 <br>
+
+
+- **Request**
+  ```
+  (GET) {전체 상품 목록 API 주소}
+  ```
 
 - **Response**
 
