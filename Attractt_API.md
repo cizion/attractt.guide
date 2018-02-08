@@ -64,10 +64,10 @@
 
 - **Request**
 
-  ``````url
+  ```url
   https://www.attractt.com/custom/track?
   secretToken=sEcrEtTokEn&email=contact@attractt.com&track_seq=970
-  ``````
+  ```
 
 - **Response**
 
