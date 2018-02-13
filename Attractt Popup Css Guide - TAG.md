@@ -24,7 +24,7 @@ body #attractt-popup .created-tag {
 }
 
 body #attractt-popup .created-tag.hide {
-	opacity: 0 !important;				/* 숨겨진 태그버튼 : 고정값 */
+	opacity: 0 !important;				/* 태그버튼 숨김 : 고정값 - 보드설정의 '태그 모으기'기능을 활성화 시켰을 경우 필요함 */
 }
 
 body #attractt-popup .created-tag:after,
