@@ -45,8 +45,10 @@ body #attractt-popup .btn-tag-show i {
 	height: 40px;					/* 태그버튼 세로 크기 */
 	border: 3px solid #fff;				/* 태그버튼 테두리 : default none */
 	border-radius: 50% 50% 50% 50%;			/* 태그버튼 테두리 radius : default 0px */
-	background-color: #d85629;			/* 태그버튼 배경색 : default #101010 */
+	background-image: url();			/* 태그버튼 이미지 */
 	background-position: -11px -11px;		/* 태그버튼 이미지 위치 */
+	background-color: #d85629;			/* 태그버튼 배경색 : default #101010 */
+	background-repeat: no-repeat;
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);	/* 태그버튼 그림자 */
 }
 
