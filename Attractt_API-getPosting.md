@@ -25,12 +25,12 @@
 	jsonp : "attracttCallback",
 	success : function(data) {
             // 결과값 출력
-            // 결과값의 자세한 정보는 아래 설명 참조
+            // 결과값의 자세한 정보는 아래 4.항목별 설명 참조
             console.log(data);
         },
 	error : function(data) {
             // 에러코드 출력
-            // 에러코드의 자세한 정보는 아래 설명 참조
+            // 에러코드의 자세한 정보는 아래 5.결과값 코드 참조
             console.log(data);
         }
     });
@@ -84,16 +84,16 @@
 
 ## 4. 항목별 설명
 
-> 해당 항목들은 추후에 변경되거나 제거될 수 있습니다.
+> 해당 항목들은 Instagram Graph API 정책 변경에 따라 추후에 변경되거나 제거될 수 있습니다. 
 
 | Key                 | Type      | Description                                                  |
 | ------------------- | --------- | ------------------------------------------------------------ |
 | **post_seq**        | Integer   | Attractt에 저장된 순서의 sequence                            |
 | **post_id**         | String    | Instagram에서 제공되는 콘텐츠 고유 ID                        |
 | **sns**             | String    | 콘텐츠가 게시되어 있는 서비스                                |
-| **user_name**       | String    | 콘텐츠 게시자 이름                                           |
-| **profile_image**   | String    | 콘텐츠 게시자 프로필 이미지                                  |
-| **created_time**    | Timestamp | SNS에 콘텐츠가 게시되어진 시간. Timestamp 형식으로 `new Date()` 함수를 사용하거나 외부 라이브러리를 이용하여 식별할 수 있는 데이터로 전환하여 사용해야 함. |
+| **user_name**       | String    | 콘텐츠 게시자 이름(Instagram Graph API 변경으로 현재 제공되지 않음) |
+| **profile_image**   | String    | 콘텐츠 게시자 프로필 이미지(Instagram Graph API 변경으로 현재 제공되지 않음) |
+| **created_time**    | Timestamp | SNS에 콘텐츠가 게시되어진 시간. Timestamp 형식으로 `new Date()` 함수를 사용하거나 외부 라이브러리를 이용하여 식별할 수 있는 데이터로 전환하여 사용해야 함.(Instagram Graph API 변경으로 현재 제공되지 않음) |
 | **link**            | String    | 개별 콘텐츠 링크                                             |
 | **type**            | String    | 콘텐츠 형태 - image, video, carousel                         |
 | **thumbnail_image** | String    | 대표 섬네일 이미지 - 검색 유형이나 콘텐츠 형태에 따라서 제공되지 않을 수 있음. image 라고 명시되어 있으나 동영상의 경우에 동영상 주소로 내려옴. 주소를 정규식으로 판별하여 image/video 여부를 판단하고 html 태그를 구분하여 삽입하여야 함. |
