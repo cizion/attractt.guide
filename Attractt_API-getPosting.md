@@ -99,7 +99,7 @@
 | **thumbnail_image** | String    | 대표 섬네일 이미지 - 검색 유형이나 콘텐츠 형태에 따라서 제공되지 않을 수 있음. image 라고 명시되어 있으나 동영상의 경우에 동영상 주소로 내려옴. 주소를 정규식으로 판별하여 image/video 여부를 판단하고 html 태그를 구분하여 삽입하여야 함. |
 | **low_image**       | String    | 150x150 픽셀 크기의 대표 이미지(Instagram Graph API 변경으로 현재 제공되지 않음) |
 | **standard_image**  | String    | 640x640 픽셀 크기의 대표 이미지                              |
-| **hd_image**        | String    | 1080x1080 픽셀 크기의 대표 이미지(현재 사용 불가능한 주소 형식) |
+| **hd_image**        | String    | 1080x1080 픽셀 크기의 대표 이미지(Instagram Graph API 변경으로 현재 제공되지 않음) |
 | **video**           | String    | 동영상 데이터 주소 - 동영상이 있을 경우에만 제공             |
 | **carousel_media**  | String    | 다중 콘텐츠 데이터 - `Array` 형식을 `JSON.stringify` 로 `String` 화 하여 저장하고 내려줌. 사용하기 전 `JSON.parse()` 로 `Object` 화 하여 사용. 없는 경우 제공 안됨. |
 | **hashtags**        | String    | 콘텐츠 본문 내용에 있는 해시태그만 도출하여 저장한 내용 - `#` 을 제거한 텍스트 형태로 저장. ex) `attractt 어트랙트 시지온` |
