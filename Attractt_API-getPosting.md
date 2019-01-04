@@ -15,26 +15,26 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <script type="text/javascript">
-	<!-- Attractt 데이터 호출 코드 -->
-	$.ajax({
-		url : "https://www.attractt.com/api/posts",
-		data : {
+    <!-- Attractt 데이터 호출 코드 -->
+    $.ajax({
+        url : "https://www.attractt.com/api/posts",
+        data : {
             code : 고객사 계정, 보드별 고유 코드 제공
         },
-		dataType : "jsonp",
-		jsonp : "attracttCallback",
-		success : function(data) {
+	dataType : "jsonp",
+	jsonp : "attracttCallback",
+	success : function(data) {
             // 결과값 출력
             // 결과값의 자세한 정보는 아래 설명 참조
             console.log(data);
         },
-		error : function(data) {
+	error : function(data) {
             // 에러코드 출력
             // 에러코드의 자세한 정보는 아래 설명 참조
             console.log(data);
         }
-	});
-	<!-- Attractt 데이터 호출 코드 끝 -->
+    });
+    <!-- Attractt 데이터 호출 코드 끝 -->
 </script>
 ```
 
