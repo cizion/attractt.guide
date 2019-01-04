@@ -97,7 +97,7 @@
 | **link**            | String    | 개별 콘텐츠 링크                                             |
 | **type**            | String    | 콘텐츠 형태 - image, video, carousel                         |
 | **thumbnail_image** | String    | 대표 섬네일 이미지 - 검색 유형이나 콘텐츠 형태에 따라서 제공되지 않을 수 있음. image 라고 명시되어 있으나 동영상의 경우에 동영상 주소로 내려옴. 주소를 정규식으로 판별하여 image/video 여부를 판단하고 html 태그를 구분하여 삽입하여야 함. |
-| **low_image**       | String    | 150x150 픽셀 크기의 대표 이미지(이전 데이터에서만 제공됨)    |
+| **low_image**       | String    | 150x150 픽셀 크기의 대표 이미지(Instagram Graph API 변경으로 현재 제공되지 않음) |
 | **standard_image**  | String    | 640x640 픽셀 크기의 대표 이미지                              |
 | **hd_image**        | String    | 1080x1080 픽셀 크기의 대표 이미지(현재 사용 불가능한 주소 형식) |
 | **video**           | String    | 동영상 데이터 주소 - 동영상이 있을 경우에만 제공             |
