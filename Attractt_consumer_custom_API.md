@@ -75,6 +75,10 @@ callbackName({
 
 
 
+아래 링크의 첫번째 사진을 통해 적용 예시를 확인 하실 수 있습니다.
+
+https://www.attractt.com/embed/preview?code=JVI3tRyslO8USys&type=grid 
+
 ### * 주의사항
 
 - **SSL 적용**
