@@ -42,7 +42,38 @@
   })
   ```
 
+
+
+- cart, link: 는 각각 '장바구니' 버튼, '구입하기' 버튼으로 문구가 다른 차이가 있습니다.
+
 <br>
+
+
+
+## Response Example
+
+```json
+callbackName({
+	"id" : "A0001124",
+	"name" : "상하치즈 유기농 첫치즈 10매",
+	"thumb" : "http://www.sanghafarm.co.kr/sanghafarm_Data/upload/shop/product/201911/A0001124_2019112712562930826.jpg",
+	"image" : [
+		"http://www.sanghafarm.co.kr/sanghafarm_Data/upload/shop/product/201911/A0001124_2019112712562930825.jpg",
+		"http://www.sanghafarm.co.kr/sanghafarm_Data/upload/shop/product/201911/A0001124_2019112712562930827.jpg"
+	],
+	"price" : "4880",
+	"unit" : "18g x 10매",
+	"explain" : "우리 아이를 위한 건강한 치즈",
+	"link" : "http://www.sanghafarm.co.kr/product/detail.jsp?pid=A0001124"
+})
+
+```
+
+
+
+![API 적용예시 사진](./attractt-api-screenshot.png)
+
+
 
 ### * 주의사항
 
@@ -54,6 +85,4 @@
 
   어트랙트측에서 데이터를 요청할 때 크로스도메인(CORS)을 방지하기 위해서 `callback=?` 파라미터를 붙여서 요청을 합니다. 서버에서 요청을 받으실 때 `callback` 파라미터 함수명을 받아 응답값을 감싸서(상단 **Response**의 `callbackFunctionName`) 내려주시면 됩니다.
 
-- **장바구니 및 구매하기 연동시 특이사항 확인**
-
-  고객사 홈페이지마다 장바구니 및 구매하기 연동의 제한이 걸리는 경우가 있습니다. 장바구니 동기화 및 구매가 발생할 시 파라미터 전달방식에 대한 사전 공유 부탁드립니다.
+  
