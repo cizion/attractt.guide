@@ -69,6 +69,7 @@ callbackName({
 
 ```
 
+- 현재 thumb 항목만 넘기는 거와 image 배열로 넘기는 것 둘 다 같은 동작을 하고 있습니다. 둘 중 편한 방법으로 넘겨 주시면 됩니다.
 
 
 ![API 적용예시 사진](./attractt-api-screenshot.png)
