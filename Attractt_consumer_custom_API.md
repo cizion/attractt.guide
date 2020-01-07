@@ -88,6 +88,6 @@ https://www.attractt.com/embed/preview?code=JVI3tRyslO8USys&type=grid
 
 - **크로스도메인 에러 방지를 위한 콜백 파라미터 작업**
 
-  어트랙트측에서 데이터를 요청할 때 크로스도메인(CORS)을 방지하기 위해서 `callback=?` 파라미터를 붙여서 요청을 합니다. 서버에서 요청을 받으실 때 `callback` 파라미터 함수명을 받아 응답값을 감싸서(상단 **Response**의 `callbackFunctionName`) 내려주시면 됩니다.
+  어트랙트측에서 데이터를 요청할 때 크로스도메인(CORS)을 방지하기 위해서 `callback=?` 파라미터를 붙여서 요청을 합니다. 서버에서 요청을 받으실 때 `callback` 파라미터 함수명을 받아 응답값을 감싸서(상단 **Response**의 `callbackFunctionName`) 내려주시면 됩니다. 현재 CORS를 통한 지원 계획은 아직 없습니다.
 
   
