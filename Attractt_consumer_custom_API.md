@@ -129,7 +129,7 @@ https://www.attractt.com/embed/preview?code=JVI3tRyslO8USys&type=grid
 #### API 적용 사진 예시 
 
 
-<img src="/Users/jelly/Documents/api-consumer-list.png" alt="api-consumer-list" style="zoom:50%;" />
+<img src="./api-consumer-list.png" alt="api-consumer-list" style="zoom:50%;" />
 
 
 ### * 주의사항
