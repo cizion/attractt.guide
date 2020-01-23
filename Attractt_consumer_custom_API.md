@@ -80,6 +80,59 @@ callbackName({
 
 https://www.attractt.com/embed/preview?code=JVI3tRyslO8USys&type=grid 
 
+
+# 상품 리스트 API 연동 가이드
+
+아래의 API를 통해 상품 태그 기능을 좀 더 쉽게 사용이 가능합니다.
+
+
+
+## 상품 리스트
+
+- **API 주소는 특정한 형식없이 없습니다.**
+
+- **응답값은 `JSON` 형태로 내려주세요.**
+
+### Request
+
+> (GET) 상품 리스트를 가져올 수 있는 API 주소
+
+```js
+  callbackFunctionName({
+    "list" : [
+
+		{
+			"id" : "A0004565",
+			"name" : "고창 바지락 라면 115g*3입",
+			"api_link" : "http://www.sanghafarm.co.kr/api/productDetail.jsp?pid=A0004565"
+		},
+
+		{
+			"id" : "A0002766",
+			"name" : "루어팍 가염버터 250g",
+			"api_link" : "http://www.sanghafarm.co.kr/api/productDetail.jsp?pid=A0002766"
+		},
+      ...
+      ...
+      
+		{
+			"id" : "A0002826",
+			"name" : "청맥 GAP 청색 보리 (19년산)",
+			"api_link" : "http://www.sanghafarm.co.kr/api/productDetail.jsp?pid=A0002826"
+		}
+    ]
+  })
+```
+
+
+
+#### API 적용 사진 예시 
+
+![api-consumer-list](/Users/jelly/Documents/api-consumer-list.png)
+
+<img src="/Users/jelly/Documents/api-consumer-list.png" alt="api-consumer-list" style="zoom:50%;" />
+
+
 ### * 주의사항
 
 - **SSL 적용**
@@ -89,5 +142,8 @@ https://www.attractt.com/embed/preview?code=JVI3tRyslO8USys&type=grid
 - **크로스도메인 에러 방지를 위한 콜백 파라미터 작업**
 
   어트랙트측에서 데이터를 요청할 때 크로스도메인(CORS)을 방지하기 위해서 `callback=?` 파라미터를 붙여서 요청을 합니다. 서버에서 요청을 받으실 때 `callback` 파라미터 함수명을 받아 응답값을 감싸서(상단 **Response**의 `callbackFunctionName`) 내려주시면 됩니다. 현재 CORS를 통한 지원 계획은 아직 없습니다.
+
+- **상품 리스트 적용 시**
+상품 리스트 API 의 경우 현재 어트랙트 내에 고객사가 직접 등록할 수 없으며, API 주소를 전달해 주시면 등록해드리고 있습니다. 추후 패치를 통해 직접 등록할 수 있는 UI를 제공할 예정입니다.
 
   
